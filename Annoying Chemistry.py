@@ -1,6 +1,6 @@
+#Find the question here: https://www.hackerearth.com/challenges/competitive/march-circuits-20/algorithm/annoying-chemistry-f5fb9556/
+
 def chemical(x,y,p,q):
-    # b3 = (b1*x)/p
-    # value using x,y,p,q is in
     a = ((y*p)/(x*q))
     b1 = [1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0]
     for i in range(1,11):
