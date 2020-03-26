@@ -2,7 +2,7 @@
 
 def minimum(arr):
     arr.sort()
-    min_xor = 99999
+    min_xor = 9999999999
     val = 0
     for k in range(len(arr)-1):
         r = (arr[k]&arr[k+1])^(arr[k]|arr[k+1])
